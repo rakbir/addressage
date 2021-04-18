@@ -16,7 +16,7 @@ class MainMenu(Frame):
         self.configure()
 
     def configure(self):
-            Label(self, text="ADRESSAGE IPv4 - IPv6", font=('Arial',20)).pack()
+            Label(self, text="Calcul adresses IPv4 - IPv6", font=('Arial',20)).pack()
 
             self.champAdresse=LabelEntry(self)
             self.champAdresse.label['text']="adresse_ip/préfixe:"
